@@ -7,16 +7,17 @@ html {
 }
 
 body {
-    background-color: peachpuff;
+    background-color: aliceblue;
     font-family: "PlusJakartaSans", sans-serif;
+    font-weight: 500;
 }
 
 main {
-    width: 60%;
+    width: 50%;
     height: 90%;
     margin: 4% 20%;
     background-color: white;
-    padding: 1rem 2rem;
+    padding: 1rem 4rem 1rem 3rem;
     border-radius: 10px;
 }
 
@@ -29,6 +30,7 @@ main {
 header {
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .notification {
@@ -39,13 +41,59 @@ header {
     padding-left: 1rem;
 }
 
+.content {
+    padding: 5px 10px;
+    color: hsl(219, 12%, 42%);
+}
+
+.text {
+    display:flex;
+    flex-direction: column;
+}
+
 .profileimage {
+    margin-top: 10px;
     width:60px;
     height:60px;
 }
 
-.content {
-    padding: 5px 10px
+.timer {
+    color: grey;
+    margin-top: -15px;
 }
 
+.club {
+    color: hsl(219, 85%, 26%);
+    font-weight: bold;
+    margin-left:0.3em;
+}
 
+.directmessage {
+    border: 0.1px lightgrey solid;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: -10px;
+    color: lightslategray;
+    font-weight: 550;
+}
+
+strong {
+    color:black;
+    font-weight: 950;
+    margin-right:0.3em;
+}
+
+em {
+    font-weight: bold;
+    font-style: normal;
+    margin-left:0.3em;
+}
+
+#chess {
+    width:3%;
+    height:6%;
+    position: absolute;
+    right: 29%;
+    bottom: 19%;
+}
