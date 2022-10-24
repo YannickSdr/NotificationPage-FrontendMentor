@@ -33,6 +33,30 @@ header {
     align-items: center;
 }
 
+#leftheader {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.8em;
+}
+
+#countdown {
+    background-color:hsl(219, 85%, 26%);
+    width:2.3em;
+    height:2em;
+    border-radius: 25%;
+}
+
+#counter {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    bottom: 0.6em;
+    
+}
+
 .notification {
     width: 100%;
     background-color: aliceblue;
@@ -96,4 +120,13 @@ em {
     position: absolute;
     right: 29%;
     bottom: 19%;
+}
+
+.redcircle {
+  margin-left:0.3em;
+  height: 0.5em;
+  width: 0.5em;
+  background-color: orangered;
+  border-radius: 50%;
+  display: inline-block;
 }
