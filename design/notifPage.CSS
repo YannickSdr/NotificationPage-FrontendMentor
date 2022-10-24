@@ -65,6 +65,10 @@ header {
     padding-left: 1rem;
 }
 
+.notification:hover {
+    cursor:pointer;
+}
+
 .content {
     padding: 5px 10px;
     color: hsl(219, 12%, 42%);
@@ -129,4 +133,12 @@ em {
   background-color: orangered;
   border-radius: 50%;
   display: inline-block;
+}
+
+.read {
+    background-color: white;
+}
+
+#allread:hover {
+    cursor: pointer;
 }
