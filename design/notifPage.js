@@ -2,9 +2,9 @@ const div = document.querySelectorAll(".notification");
 const divCircle = document.querySelectorAll(".redcircle")
 const counter = document.querySelector("#counter");
 const allRead = document.getElementById("allread");
-const divSolo2 = document.querySelectorAll(".unread")
+const divStart = document.querySelectorAll(".unread")
 
-counter.innerHTML = divSolo2.length;
+counter.innerHTML = divStart.length;
 
 const updateCounter = () => {
     const divSolo = document.querySelectorAll(".unread")

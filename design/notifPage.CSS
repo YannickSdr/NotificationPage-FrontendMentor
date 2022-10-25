@@ -2,6 +2,13 @@
     font-family: "PlusJakartaSans";
     src: url("/assets/fonts/PlusJakartaSans-VariableFont_wght.ttf");
 }
+/* couldnt figure how to properly place this img, tried playing with divs and flexbox features, no satisfying result. */
+@media screen and (max-width:1400px) { 
+    #chess {
+        visibility: hidden;
+    }
+}
+
 html {
     margin: 0;
 }
@@ -96,6 +103,11 @@ header {
     margin-left:0.3em;
 }
 
+.club:hover {
+    font-weight: 900;
+    color: darkblue
+}
+
 .directmessage {
     border: 0.1px lightgrey solid;
     padding: 20px;
@@ -106,24 +118,38 @@ header {
     font-weight: 550;
 }
 
+.directmessage:hover {
+    background-color: aliceblue;
+}
+
 strong {
     color:black;
     font-weight: 950;
     margin-right:0.3em;
 }
 
+strong:hover {
+    color: hsl(219, 85%, 26%);
+}
+
 em {
-    font-weight: bold;
     font-style: normal;
     margin-left:0.3em;
+    font-weight: bold;
+}
+
+em:hover {
+    color:hsl(219, 85%, 26%);
+    font-weight: 900;
 }
 
 #chess {
-    width:3%;
-    height:6%;
+    width:50px;
+    height:50px;
     position: absolute;
-    right: 29%;
-    bottom: 19%;
+    right: 34.5em;
+    bottom: 11em;
+
 }
 
 .redcircle {
@@ -141,4 +167,11 @@ em {
 
 #allread:hover {
     cursor: pointer;
+}
+
+
+#img {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
 }
