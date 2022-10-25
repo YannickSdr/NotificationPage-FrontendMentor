@@ -31,7 +31,6 @@ https://prnt.sc/boC5ul8WJwT9 full overwiew
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 ### Built with
 
@@ -45,5 +44,4 @@ Since I learnt mostly theorical notions and concepts for two months, I am glad I
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@@YannickSdr](https://www.frontendmentor.io/profile/YannickSdr)
