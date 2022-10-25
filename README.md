@@ -1,3 +1,6 @@
+Repo de mon premier petit projet grâce à Frontend Mentor. J'apprends le web developpement et le code en général depuis 08/2022 en auto-formation, en complément de mon emploi actuel dans un tout autre domaine, via des plateformes comme OpenClassRoom ou FreeCodecamp. J'ai à ce jour appris et pratiqué sur HTML/CSS/JS natif. Je souhaite à terme suivre une formation certifiante pour mener une reconversion professionnelle en tant que web developpeur. Ci-dessous la description de ce projet, plus formalisée et en anglais.
+
+
 # Frontend Mentor - Notifications page solution
 
 This is a solution to the [Notifications page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
